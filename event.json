@@ -1,0 +1,41 @@
+{
+      "collection_timestamp": ##TIMESTAMP##,
+      "events": {
+        "puppet": [
+          {
+            "context": {
+              "category": "Changes",
+              "data": {
+
+              },
+              "element_identifiers": [
+                 "urn:host:/localhost.localdomain"
+              ],
+              "source": "Puppet",
+              "source_links": [
+                {
+                  "title": "External link",
+                  "url": "https://www.google.com"
+                }
+              ]
+            },
+            "event_type": "ConfigurationChangedEvent",
+            "msg_title": "Puppet run for localhost.localdomain changed",
+            "msg_text": "Puppet run for localhost.localdomain changed on configuration version 1607421870 in production",
+            "source_type_name": "ConfigurationChangedEvent",
+            "tags": [
+              "configuration_version:1607421870",
+              "transaction_uuid:5cd833f6-606b-4344-80ab-c1f6eb06c303",
+              "catalog_uuid:9d4b1f18-0409-4610-b18c-e5d9d16cb23e",
+              "environment:production",
+              "status: changed"
+            ],
+            "timestamp": ##TIMESTAMP##
+          }
+        ]
+      },
+      "internalHostname": "localhost.localdomain",
+      "metrics": [],
+      "service_checks": [],
+      "topologies": []
+    }

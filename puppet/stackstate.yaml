@@ -1,0 +1,4 @@
+---
+:stackstate_url: 'https://stackstate.acme.com/receiver/stsAgent'
+:stackstate_api_key: 'my-api-key'
+:puppetconsole_host: 'puppetconsole.acme.com'

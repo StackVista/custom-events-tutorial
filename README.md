@@ -1,4 +1,4 @@
-# StackState custom events tutorial
+# StackState events tutorial
 
 This repository contains a sample project that demonstrates how to send events to StackState.
 
